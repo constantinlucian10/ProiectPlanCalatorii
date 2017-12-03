@@ -1,0 +1,30 @@
+"name": "proiect-plan-calatorii",
+  "version": "1.0.0",
+  "description": "description ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/constantinlucian10/ProiectPlanCalatorii.git"
+  },
+  "keywords": [
+    "RESTful",
+    "api",
+    "nodejs",
+    "calatorie",
+    "itinerariu"
+  ],
+  "author": "constantinlucian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/constantinlucian10/ProiectPlanCalatorii/issues"
+  },
+  "homepage": "https://github.com/constantinlucian10/ProiectPlanCalatorii#readme",
+ "dependencies": {
+    "express": "^4.16.2",
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.22.5"
+  }
+}
