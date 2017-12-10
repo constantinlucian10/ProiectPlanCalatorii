@@ -44,7 +44,9 @@ CREATE TABLE IF NOT EXISTS `itinerariu` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 
-Descriere proiect:
+
+
+Descriere Initiala proiect(saptamana 5):
 Proiectul de tip single page interface, va fi denumit:”Pasionatii de calatorii”.
 Va fi dotat cu 2 optiuni: inregistrare new users, deschizandu-se o fereastra ce va contine: Nume, E-mail si Parola, apoi un buton pentru trimiterea cererii de inscriere. A doua optiune se va adresa utilizatorilor ce au deja cont, aici se va deschide o fereastra in care se va cere User si Parola precum si buton de autentificare.
 Va fi inclusa si o rubrica denumita “Jurnal de calatorii”, ce va cuprinde 2 categorii distincte: Romania si Strainatate. In fiecare dintre aceste rubrici, vor aparea postarilor userilor ce va cuprinde planurile lor de calatorie si experientele avute in locurile respective.
