@@ -1,5 +1,49 @@
 # ProiectPlanCalatorii
 
+Baza de date:
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+
+CREATE DATABASE `plan` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `plan`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `calatorie`
+--
+
+CREATE TABLE IF NOT EXISTS `calatorie` (
+  `id` smallint(5) NOT NULL AUTO_INCREMENT,
+  `denumire` varchar(50) DEFAULT NULL,
+  `itinerariu_id` int(20) NOT NULL,
+  `price` int(300) NOT NULL,
+  `createdAt` timestamp,
+  `updatedAt` timestamp,
+  PRIMARY KEY (`id`),
+  KEY `id` (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `itinerariu`
+--
+
+CREATE TABLE IF NOT EXISTS `itinerariu` (
+  `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT,
+  `tara` varchar(30) DEFAULT NULL,
+  `orase` varchar(100) NOT NULL,
+  `traseu` text(500) DEFAULT NULL,
+  `image` varchar(100) DEFAULT NULL,
+  `createdAt` timestamp,
+  `updatedAt` timestamp,
+  PRIMARY KEY (`id`),
+  KEY `id_produse` (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+
 Descriere proiect:
 Proiectul de tip single page interface, va fi denumit:”Pasionatii de calatorii”.
 Va fi dotat cu 2 optiuni: inregistrare new users, deschizandu-se o fereastra ce va contine: Nume, E-mail si Parola, apoi un buton pentru trimiterea cererii de inscriere. A doua optiune se va adresa utilizatorilor ce au deja cont, aici se va deschide o fereastra in care se va cere User si Parola precum si buton de autentificare.
