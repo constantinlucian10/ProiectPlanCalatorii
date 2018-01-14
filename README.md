@@ -1,4 +1,4 @@
-# ProiectPlanCalatorii
+# ProiectPlanCalatorii (saptamana 9 - nu e varianta finala)
 
 Baza de date:
 
