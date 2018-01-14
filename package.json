@@ -1,4 +1,5 @@
-"name": "proiect-plan-calatorii",
+{
+  "name": "proiect-plan-calatorii",
   "version": "1.0.0",
   "description": "description ",
   "main": "server.js",
@@ -22,9 +23,9 @@
     "url": "https://github.com/constantinlucian10/ProiectPlanCalatorii/issues"
   },
   "homepage": "https://github.com/constantinlucian10/ProiectPlanCalatorii#readme",
- "dependencies": {
+  "dependencies": {
     "express": "^4.16.2",
     "mysql2": "^1.4.2",
-    "sequelize": "^4.22.5"
+    "sequelize": "^4.23.0"
   }
 }
